@@ -58,8 +58,15 @@
     <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/Scripts/HandPresence.cs" />
     <Compile Include="Assets/Scripts/VR Controller.cs" />
+    <Compile Include="Assets/Scripts/HandPresence.cs" />
+    <Compile Include="Assets/PBR_Grass_Textures/Scripts/CameraFreeflight.cs" />
+    <Compile Include="Assets/IgniteCoders/Simple Water Shader/Info/Scripts/Readme.cs" />
+    <Compile Include="Assets/IgniteCoders/Simple Water Shader/Resources/WaterReflection.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets/Julien Tonsuso/Modular Fantasy Bridges/README.txt" />
+    <None Include="Assets/laxer tree pkg/README.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
