@@ -1,4 +1,0 @@
-#Wed Feb 28 19:09:13 AEDT 2024
-base.0=/Users/baileymcnamara/Documents/TECH LAB/My project/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/build/intermediates/dex/release/mergeDexRelease/classes.dex
-path.0=classes.dex
-renamed.0=classes.dex
