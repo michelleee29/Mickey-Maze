@@ -22,7 +22,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64926
+55841
 Successfully changed project path to: /Users/michellekathryn/Documents/GitHub/Mickey-Maze/My project
 /Users/michellekathryn/Documents/GitHub/Mickey-Maze/My project
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -54,12 +54,12 @@ Successfully changed project path to: /Users/michellekathryn/Documents/GitHub/Mi
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8778920640] Host "[IP] 10.105.62.19 [Port] 0 [Flags] 2 [Guid] 4031303077 [EditorId] 4031303077 [Version] 1048832 [Id] OSXEditor(0,michelle-k.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [8774345408] Host "[IP] 10.0.19.224 [Port] 0 [Flags] 2 [Guid] 1432233432 [EditorId] 1432233432 [Version] 1048832 [Id] OSXEditor(0,michelle-k.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [8778920640] Host "[IP] 10.105.62.19 [Port] 0 [Flags] 2 [Guid] 4031303077 [EditorId] 4031303077 [Version] 1048832 [Id] OSXEditor(0,michelle-k.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8774345408] Host "[IP] 10.0.19.224 [Port] 0 [Flags] 2 [Guid] 1432233432 [EditorId] 1432233432 [Version] 1048832 [Id] OSXEditor(0,michelle-k.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
-Refreshing native plugins compatible for Editor in 185.81 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 94.27 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.35f1 (157b46ce122a)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.35f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -74,81 +74,81 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.35f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.35f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.3.35f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56036
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56640
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.35f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.35f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.001482 seconds.
+Registered in 0.001634 seconds.
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 326 ms
+Android Extension - Scanning For ADB Devices 184 ms
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 105.45 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 98.75 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.165 seconds
+- Completed reload, in  2.095 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2167ms)
-		BeginReloadAssembly (213ms)
+	ReloadAssembly (2097ms)
+		BeginReloadAssembly (194ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (3ms)
-		EndReloadAssembly (1775ms)
-			LoadAssemblies (211ms)
-			RebuildTransferFunctionScriptingTraits (1ms)
-			SetupTypeCache (141ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1713ms)
+			LoadAssemblies (193ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (136ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (1450ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (1321ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (842ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (106ms)
-				BeforeProcessingInitializeOnLoad (4ms)
-				ProcessInitializeOnLoadAttributes (321ms)
-				ProcessInitializeOnLoadMethodAttributes (176ms)
+				InitializePlatformSupportModulesInManaged (700ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (99ms)
+				BeforeProcessingInitializeOnLoad (5ms)
+				ProcessInitializeOnLoadAttributes (337ms)
+				ProcessInitializeOnLoadMethodAttributes (175ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (1ms)
+				EditorAssembliesLoaded (5ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005731 seconds.
+Registered in 0.006315 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.08 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.99 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.770 seconds
+- Completed reload, in  1.679 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1772ms)
-		BeginReloadAssembly (281ms)
+	ReloadAssembly (1681ms)
+		BeginReloadAssembly (263ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (38ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (1245ms)
-			LoadAssemblies (162ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (1186ms)
+			LoadAssemblies (145ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (236ms)
+			SetupTypeCache (219ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (611ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (578ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (75ms)
-				SetLoadedEditorAssemblies (1ms)
+				InitializePlatformSupportModulesInManaged (70ms)
+				SetLoadedEditorAssemblies (2ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (74ms)
-				ProcessInitializeOnLoadAttributes (373ms)
-				ProcessInitializeOnLoadMethodAttributes (84ms)
-				AfterProcessingInitializeOnLoad (1ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (333ms)
+				ProcessInitializeOnLoadMethodAttributes (97ms)
+				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
@@ -156,12 +156,12 @@ Failed to load shader (instanceID 24580, GUID 9c442dc870b456e48b615cd8add0e9ef)
 Failed to load shader (instanceID 24582, GUID 493b79ea9c9be44ed8b702014d3ac49c)
 Launching external process: /Applications/Unity/Hub/Editor/2021.3.35f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.11 seconds
-Refreshing native plugins compatible for Editor in 1.28 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 1.02 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2 unused Assets / (41.0 KB). Loaded Objects now: 508.
-Memory consumption went from 45.3 MB to 45.3 MB.
-Total: 2.914709 ms (FindLiveObjects: 0.074583 ms CreateObjectMapping: 0.003041 ms MarkObjects: 2.739542 ms  DeleteObjects: 0.096875 ms)
+Unloading 2 unused Assets / (40.5 KB). Loaded Objects now: 490.
+Memory consumption went from 32.9 MB to 32.9 MB.
+Total: 2.410625 ms (FindLiveObjects: 0.043083 ms CreateObjectMapping: 0.002583 ms MarkObjects: 2.280125 ms  DeleteObjects: 0.084250 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -177,153 +177,697 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 165781.230622 seconds.
-  path: Assets/Rocks and Boulders 2/Demo
-  artifactKey: Guid(8ac76fa221a4a734588b1b300835c0fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Rocks and Boulders 2/Demo using Guid(8ac76fa221a4a734588b1b300835c0fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e14bd8b9139218a7885e249dfbb63df') in 0.006590 seconds 
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000089 seconds.
-  path: Assets/Rocks and Boulders 2/Demo/gray.mat
-  artifactKey: Guid(22172bafc2d3a2c4b863543bfada408a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Rocks and Boulders 2/Demo/gray.mat using Guid(22172bafc2d3a2c4b863543bfada408a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5775fb11759f908c1597b75f64b4dcf') in 0.675577 seconds 
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000104 seconds.
-  path: Assets/Rocks and Boulders 2/Demo/test_scene.unity
-  artifactKey: Guid(523d76bcf49339749b39095e67d66476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Rocks and Boulders 2/Demo/test_scene.unity using Guid(523d76bcf49339749b39095e67d66476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4d372de213f19f2e9f5d647ba41fb7c') in 0.000635 seconds 
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 945.420435 seconds.
-  path: Assets/Scenes/willierig.blend11.blend
-  artifactKey: Guid(df3d66a99d419453cbd4ad568f44db6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Scenes/willierig.blend11.blend using Guid(df3d66a99d419453cbd4ad568f44db6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9179dd47df106850daf9dd47d78dc143') in 0.087810 seconds 
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 84.731671 seconds.
-  path: Assets/Scenes/RIGGED_Steamboat_Willie.usdz
-  artifactKey: Guid(b832f875592da4c7796fac0311db0850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Scenes/RIGGED_Steamboat_Willie.usdz using Guid(b832f875592da4c7796fac0311db0850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff3f1373d3c5f7c53f6c31a7658563df') in 0.084913 seconds 
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 374.558323 seconds.
+  Time since last request: 251611.078413 seconds.
   path: Assets/Scenes/mickey1.fbx
   artifactKey: Guid(b5e348553efec48bea814671e501e775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Scenes/mickey1.fbx using Guid(b5e348553efec48bea814671e501e775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04fcc31291790230b3d7136cbe93b8ee') in 1.110992 seconds 
+Start importing Assets/Scenes/mickey1.fbx using Guid(b5e348553efec48bea814671e501e775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04fcc31291790230b3d7136cbe93b8ee') in 1.081285 seconds 
 Number of asset objects unloaded after import = 88
 ========================================================================
 Received Import Request.
-  Time since last request: 423.249490 seconds.
-  path: Assets/Pack Free 3/Textures
-  artifactKey: Guid(588c6fb08e534bc4eb17e87ca3df0689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000109 seconds.
+  path: Assets/Scenes/Michelle.unity
+  artifactKey: Guid(ca13f151321b74b36ba5f6f8410cf6d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Pack Free 3/Textures using Guid(588c6fb08e534bc4eb17e87ca3df0689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03a52cc9cd2590f0175fb2d060f0b190') in 0.009167 seconds 
+Start importing Assets/Scenes/Michelle.unity using Guid(ca13f151321b74b36ba5f6f8410cf6d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3f7e2086c930ac2a95a23cc26c1b029') in 0.000674 seconds 
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 2.135025 seconds.
-  path: Assets/Pack Free 3/Textures/Stone 3
-  artifactKey: Guid(bf2d8af11aed97a428387062b3242aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 1779.218000 seconds.
+  path: Assets/FencesPack/Textures
+  artifactKey: Guid(f4abb099da3b9ff44b96cbd8056270ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Pack Free 3/Textures/Stone 3 using Guid(bf2d8af11aed97a428387062b3242aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aeb2f64c2f89750be28b66ca42cd8f2') in 0.001914 seconds 
+Start importing Assets/FencesPack/Textures using Guid(f4abb099da3b9ff44b96cbd8056270ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1789a42b5d330d5003df8386ab1c678f') in 0.007889 seconds 
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.046827 seconds.
-  path: Assets/Pack Free 3/Textures/Stone 3/T_Pack_Free_Stone_3_ambientocclusion.tga
-  artifactKey: Guid(1385e61029954e940b477f8e1c18f8d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 3.361214 seconds.
+  path: Assets/FencesPack/Prefabs/LowWoodFencePillar.prefab
+  artifactKey: Guid(b313937b79fdc2f48ba317592d62e2e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Pack Free 3/Textures/Stone 3/T_Pack_Free_Stone_3_ambientocclusion.tga using Guid(1385e61029954e940b477f8e1c18f8d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '681f84b215774c8ef02f6d1018a022eb') in 0.564415 seconds 
-Number of asset objects unloaded after import = 2
+Start importing Assets/FencesPack/Prefabs/LowWoodFencePillar.prefab using Guid(b313937b79fdc2f48ba317592d62e2e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd99f6369aa193a8ac566d633e54ae8ff') in 0.541669 seconds 
+Number of asset objects unloaded after import = 13
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000067 seconds.
-  path: Assets/Pack Free 3/Textures/Stone 3/T_Pack_Free_Stone_3_height.tga
-  artifactKey: Guid(713dc7ee8d7ff8d4fbe5371be6f7b1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000429 seconds.
+  path: Assets/FencesPack/Prefabs/MetalSheetRackGreen.prefab
+  artifactKey: Guid(393b8577319d6704fbec38eb18f34f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Pack Free 3/Textures/Stone 3/T_Pack_Free_Stone_3_height.tga using Guid(713dc7ee8d7ff8d4fbe5371be6f7b1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fd4224024bec12630354c5f51ee2852') in 0.009764 seconds 
-Number of asset objects unloaded after import = 2
+Start importing Assets/FencesPack/Prefabs/MetalSheetRackGreen.prefab using Guid(393b8577319d6704fbec38eb18f34f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9b8d0e6a7c8e2bdf9971e78f183139d') in 0.127818 seconds 
+Number of asset objects unloaded after import = 28
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000131 seconds.
-  path: Assets/Pack Free 3/Textures/Stone 3/T_Pack_Free_Stone_3_roughness.tga
-  artifactKey: Guid(4a8e7272198e0e04ca2cf099c01c84e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000039 seconds.
+  path: Assets/FencesPack/Prefabs/OldWoodDoorWay.prefab
+  artifactKey: Guid(5d3bdc03d17ee2049a68f7ab951eef17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Pack Free 3/Textures/Stone 3/T_Pack_Free_Stone_3_roughness.tga using Guid(4a8e7272198e0e04ca2cf099c01c84e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '312a1d278c68692f0eff242e0fc0da25') in 0.008986 seconds 
-Number of asset objects unloaded after import = 2
+Start importing Assets/FencesPack/Prefabs/OldWoodDoorWay.prefab using Guid(5d3bdc03d17ee2049a68f7ab951eef17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2feb9c0a5789d53570501b503520e81b') in 0.099520 seconds 
+Number of asset objects unloaded after import = 54
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Pack Free 3/Textures/Stone 3/T_Pack_Free_Stone_3_normal.tga
-  artifactKey: Guid(a6cbd3b88b059d54696441ce2c799b11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000035 seconds.
+  path: Assets/FencesPack/Prefabs/WoodFencePillar.prefab
+  artifactKey: Guid(84d4fbca7c5fff945b81d633ce9c84b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Pack Free 3/Textures/Stone 3/T_Pack_Free_Stone_3_normal.tga using Guid(a6cbd3b88b059d54696441ce2c799b11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b750c78362410146bb13bd56af82553e') in 0.070716 seconds 
-Number of asset objects unloaded after import = 2
+Start importing Assets/FencesPack/Prefabs/WoodFencePillar.prefab using Guid(84d4fbca7c5fff945b81d633ce9c84b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b24f54131321e627aa0da605e3b8074') in 0.016045 seconds 
+Number of asset objects unloaded after import = 12
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/Pack Free 3/Textures/Stone 3/T_Pack_Free_Stone_3_basecolor.tga
-  artifactKey: Guid(b2e83cefca0a61d4a9b804b29a1ce311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000050 seconds.
+  path: Assets/FencesPack/Prefabs/WoodSharpFence.prefab
+  artifactKey: Guid(7efe4dceef3587247b54b5501f1fb5ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Pack Free 3/Textures/Stone 3/T_Pack_Free_Stone_3_basecolor.tga using Guid(b2e83cefca0a61d4a9b804b29a1ce311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff57d66ed89bb2b15e6824c8f65e3f4c') in 0.009831 seconds 
-Number of asset objects unloaded after import = 2
+Start importing Assets/FencesPack/Prefabs/WoodSharpFence.prefab using Guid(7efe4dceef3587247b54b5501f1fb5ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e280aaeb7b0467dee93e83462e0b8fa') in 0.008268 seconds 
+Number of asset objects unloaded after import = 12
 ========================================================================
 Received Import Request.
-  Time since last request: 207.255044 seconds.
-  path: Assets/Scenes/Statue_Base_Round1.usdz
-  artifactKey: Guid(4a5531856a04c4eaeb93bc3bd805e02a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000058 seconds.
+  path: Assets/FencesPack/Prefabs/MeshFenceHole.prefab
+  artifactKey: Guid(a3c449c80e5138946bc1c34f9dd7b0cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Scenes/Statue_Base_Round1.usdz using Guid(4a5531856a04c4eaeb93bc3bd805e02a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a170753a8f0bce65991bafc69dd05ccf') in 0.027163 seconds 
-Number of asset objects unloaded after import = 1
+Start importing Assets/FencesPack/Prefabs/MeshFenceHole.prefab using Guid(a3c449c80e5138946bc1c34f9dd7b0cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '829adb20892e44b2b76be2085f5f8a39') in 0.022290 seconds 
+Number of asset objects unloaded after import = 16
 ========================================================================
 Received Import Request.
-  Time since last request: 1.560982 seconds.
-  path: Assets/Scenes/Statue_Base_Round1 1.usdz
-  artifactKey: Guid(fb2674c1e14664bea97dc669db127f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000051 seconds.
+  path: Assets/FencesPack/Prefabs/MeshFence1.prefab
+  artifactKey: Guid(824c00626fc1213408f78e303a5534c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Scenes/Statue_Base_Round1 1.usdz using Guid(fb2674c1e14664bea97dc669db127f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cd49548066066edfdd0d63aabb8cf51') in 0.002175 seconds 
-Number of asset objects unloaded after import = 1
+Start importing Assets/FencesPack/Prefabs/MeshFence1.prefab using Guid(824c00626fc1213408f78e303a5534c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e556e2443d0e82a7b4dd4c6c7f539dc8') in 0.014993 seconds 
+Number of asset objects unloaded after import = 14
 ========================================================================
 Received Import Request.
-  Time since last request: 2.211842 seconds.
-  path: Assets/Scenes/Statue_Base_Round1 2.usdz
-  artifactKey: Guid(c32ee775811ef47fc885a56ae0b2ec22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000045 seconds.
+  path: Assets/FencesPack/Prefabs/LowWoodFenceSharp.prefab
+  artifactKey: Guid(f544a2a9fed71534f85ea81385e80b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Scenes/Statue_Base_Round1 2.usdz using Guid(c32ee775811ef47fc885a56ae0b2ec22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b45f4989c5c7606babfa08161f11f80e') in 0.001657 seconds 
-Number of asset objects unloaded after import = 1
+Start importing Assets/FencesPack/Prefabs/LowWoodFenceSharp.prefab using Guid(f544a2a9fed71534f85ea81385e80b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '783e00ed61d6feebbe86c01952bd07ad') in 0.009876 seconds 
+Number of asset objects unloaded after import = 13
 ========================================================================
 Received Import Request.
-  Time since last request: 434.529463 seconds.
-  path: Assets/Scenes/temp_export.dae
-  artifactKey: Guid(da7fd818369a7464081454bc9eada417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000245 seconds.
+  path: Assets/FencesPack/Prefabs/PO2.prefab
+  artifactKey: Guid(922b2fb5d589d4347a82d49b7e69f741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Scenes/temp_export.dae using Guid(da7fd818369a7464081454bc9eada417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bf768b4960de0dd03eecf6ac820a908') in 1.355653 seconds 
+Start importing Assets/FencesPack/Prefabs/PO2.prefab using Guid(922b2fb5d589d4347a82d49b7e69f741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26416e23c23780d088aabdbf53aa0ea6') in 0.016978 seconds 
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/FencesPack/Prefabs/MeshFence2.prefab
+  artifactKey: Guid(3dca833f14577fc46870b3ffe4a313ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FencesPack/Prefabs/MeshFence2.prefab using Guid(3dca833f14577fc46870b3ffe4a313ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f3c9df913315e1d0fd81659dfb577a2') in 0.013143 seconds 
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/FencesPack/Prefabs/OldWoodFence.prefab
+  artifactKey: Guid(ddae8703de8a63742af7ff389827b4eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FencesPack/Prefabs/OldWoodFence.prefab using Guid(ddae8703de8a63742af7ff389827b4eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '088d25d32c6ffec99e0021a7e9a01a31') in 0.011333 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/FencesPack/Prefabs/MetalSheetRackBlue.prefab
+  artifactKey: Guid(68a360e854e9bfc469170ff705961a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FencesPack/Prefabs/MetalSheetRackBlue.prefab using Guid(68a360e854e9bfc469170ff705961a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '192c465d01edb564c10e03394883efde') in 0.019328 seconds 
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/FencesPack/Prefabs/MetalSheetRackRed.prefab
+  artifactKey: Guid(0f89752548c748b4e86161a546ff4b55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FencesPack/Prefabs/MetalSheetRackRed.prefab using Guid(0f89752548c748b4e86161a546ff4b55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e77cc6c07f3a4b62d57e1729394bc73') in 0.021721 seconds 
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.000537 seconds.
+  path: Assets/FencesPack/Prefabs/MetalSheetRack.prefab
+  artifactKey: Guid(45ac25bcb171c1f4bae5c18bb09f890a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FencesPack/Prefabs/MetalSheetRack.prefab using Guid(45ac25bcb171c1f4bae5c18bb09f890a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '069bd4a075bb8afff37cfa293157c065') in 0.013281 seconds 
 Number of asset objects unloaded after import = 24
 ========================================================================
 Received Import Request.
-  Time since last request: 12.228470 seconds.
-  path: Assets/Scenes/Statue Base round1.blend
-  artifactKey: Guid(ccb177627f9f74dc89dae088ae54be28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000053 seconds.
+  path: Assets/FencesPack/Prefabs/RoadBarrierMetalSheet.prefab
+  artifactKey: Guid(f91890a6fea49e347b2409f661484b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Scenes/Statue Base round1.blend using Guid(ccb177627f9f74dc89dae088ae54be28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3badb2a6639b8d41d378438257f6920') in 0.007058 seconds 
-Number of asset objects unloaded after import = 1
+Start importing Assets/FencesPack/Prefabs/RoadBarrierMetalSheet.prefab using Guid(f91890a6fea49e347b2409f661484b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '856f4140a8f77159879e7f9144a17cda') in 0.019667 seconds 
+Number of asset objects unloaded after import = 36
 ========================================================================
 Received Import Request.
-  Time since last request: 624.560160 seconds.
-  path: Assets/Rocks and Boulders 2/mickeywalt.glb
-  artifactKey: Guid(a38063e9c1ed74ef98b0325b1011b322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000064 seconds.
+  path: Assets/FencesPack/Prefabs/MeshFencePillar.prefab
+  artifactKey: Guid(cd83c8163b09c374fb3ea0c253e57fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Rocks and Boulders 2/mickeywalt.glb using Guid(a38063e9c1ed74ef98b0325b1011b322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9adf8fd3e5945b17aba14a1e36514d9') in 0.086428 seconds 
-Number of asset objects unloaded after import = 1
+Start importing Assets/FencesPack/Prefabs/MeshFencePillar.prefab using Guid(cd83c8163b09c374fb3ea0c253e57fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b137c90e1e8ac678d0168c3ffb02201') in 0.009033 seconds 
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/FencesPack/Prefabs/MetalSheetRackOld.prefab
+  artifactKey: Guid(8e9131e583584f04f8472c9a3fb57152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FencesPack/Prefabs/MetalSheetRackOld.prefab using Guid(8e9131e583584f04f8472c9a3fb57152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a5670df6936d88007f58e6320794e9c') in 0.010469 seconds 
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/FencesPack/Prefabs/OldWoodPillar.prefab
+  artifactKey: Guid(161e784eabf687a4598217971fb9a567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FencesPack/Prefabs/OldWoodPillar.prefab using Guid(161e784eabf687a4598217971fb9a567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeddb43aec86c7482f4904053bcc2286') in 0.009632 seconds 
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/FencesPack/Prefabs/PO2StandV1.prefab
+  artifactKey: Guid(14b1dbee489c28949ae31dc1bee17dda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FencesPack/Prefabs/PO2StandV1.prefab using Guid(14b1dbee489c28949ae31dc1bee17dda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f8df630c0688650b761fbe22597ff0c') in 0.012383 seconds 
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/FencesPack/Prefabs/PO2Stand.prefab
+  artifactKey: Guid(bc5a201579a363146b969d1230227a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FencesPack/Prefabs/PO2Stand.prefab using Guid(bc5a201579a363146b969d1230227a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06c094d2b2ecb00fc91596c898b8eef8') in 0.009417 seconds 
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/FencesPack/Prefabs/PO2StandV2.prefab
+  artifactKey: Guid(fe799f1b1a760d345af415e5e87205e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FencesPack/Prefabs/PO2StandV2.prefab using Guid(fe799f1b1a760d345af415e5e87205e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbb1d7df5bc06b2bb1a9db74eea22aa2') in 0.010265 seconds 
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/FencesPack/Prefabs/MeshFence.prefab
+  artifactKey: Guid(cdb30a236ae4ea146acc9d3bab111744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FencesPack/Prefabs/MeshFence.prefab using Guid(cdb30a236ae4ea146acc9d3bab111744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e78d47dd0ab8e44a87b083ef72b6694') in 0.011233 seconds 
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/FencesPack/Prefabs/RoadBarrier.prefab
+  artifactKey: Guid(7332b761240aced4bade4c46b8f57aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FencesPack/Prefabs/RoadBarrier.prefab using Guid(7332b761240aced4bade4c46b8f57aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '409df5f1085a7089f0beb50750a420c9') in 0.011642 seconds 
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/FencesPack/Prefabs/WoodFence.prefab
+  artifactKey: Guid(aea674ccbf98c5b4b96963afaf94cad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FencesPack/Prefabs/WoodFence.prefab using Guid(aea674ccbf98c5b4b96963afaf94cad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa1e09eb5b64df8bdf4be92ddfb01739') in 0.010855 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 3.874736 seconds.
+  path: Assets/FencesPack/ModelsFBX/ConcreteFences.fbx
+  artifactKey: Guid(71e8f25e3e2b3124684655b6b27f7278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FencesPack/ModelsFBX/ConcreteFences.fbx using Guid(71e8f25e3e2b3124684655b6b27f7278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '200ada239e445934f8311b0639d62295') in 0.088846 seconds 
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/FencesPack/ModelsFBX/PO2.fbx
+  artifactKey: Guid(6a1d137d3e7c9ff4fbd5319aa8d23d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FencesPack/ModelsFBX/PO2.fbx using Guid(6a1d137d3e7c9ff4fbd5319aa8d23d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e43e92c172b5087f8013139352e830b0') in 0.035963 seconds 
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/FencesPack/ModelsFBX/MeshFences.fbx
+  artifactKey: Guid(a2aec137928b62941a096c03847022f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FencesPack/ModelsFBX/MeshFences.fbx using Guid(a2aec137928b62941a096c03847022f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f6a3f1726760cda6758ff8705812f48') in 0.066719 seconds 
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/FencesPack/ModelsFBX/RoadFences.fbx
+  artifactKey: Guid(192cfc715806cd043870b38848606cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FencesPack/ModelsFBX/RoadFences.fbx using Guid(192cfc715806cd043870b38848606cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd82c35efd5eb4b8d48740025ffb2f62e') in 0.060338 seconds 
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 0.106378 seconds.
+  path: Assets/FencesPack/Materials/ForestGround.terrainlayer
+  artifactKey: Guid(f3b79600d71843c4aad48aac16b8a6b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FencesPack/Materials/ForestGround.terrainlayer using Guid(f3b79600d71843c4aad48aac16b8a6b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67d5daa98e7da4c7fd230b2fef884520') in 0.163348 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/FencesPack/Materials/WoodWhite.mat
+  artifactKey: Guid(e454b68479104714e8f45f3c0ca1fd65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FencesPack/Materials/WoodWhite.mat using Guid(e454b68479104714e8f45f3c0ca1fd65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc39d368e5de1a0edf18fa525d93f23b') in 0.067834 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/FencesPack/Materials/WoodBlue.mat
+  artifactKey: Guid(326e7bda96f982542aad864c9f0110a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FencesPack/Materials/WoodBlue.mat using Guid(326e7bda96f982542aad864c9f0110a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3c7d1ba2467db78abb0ddf51f5ee143') in 0.009020 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 2290.812375 seconds.
+  path: Assets/Medieval Castle/Ground.terrainlayer
+  artifactKey: Guid(20c48b39330c0cd4ea66caf8d5ce1af6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Medieval Castle/Ground.terrainlayer using Guid(20c48b39330c0cd4ea66caf8d5ce1af6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '925e58a1601b7bcfcca22683847c7f94') in 0.078894 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 1.393645 seconds.
+  path: Assets/Medieval Castle/Material
+  artifactKey: Guid(7e064c6ad6cdfde4e82e599844675709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Medieval Castle/Material using Guid(7e064c6ad6cdfde4e82e599844675709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd39a7d711e48b230787b6171ff6cb32f') in 0.002092 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.000539 seconds.
+  path: Assets/Medieval Castle/Prefab/Assemble/Tower1_A.prefab
+  artifactKey: Guid(f47beff3889d4744cb3bae894e8ab668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Medieval Castle/Prefab/Assemble/Tower1_A.prefab using Guid(f47beff3889d4744cb3bae894e8ab668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '760483ae1d10868693936ad93ef090f1') in 0.507188 seconds 
+Number of asset objects unloaded after import = 131
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Medieval Castle/Prefab/Assemble/Tower3A.prefab
+  artifactKey: Guid(17170d843e5c823459b2a6a8be83c3f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Medieval Castle/Prefab/Assemble/Tower3A.prefab using Guid(17170d843e5c823459b2a6a8be83c3f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4bd8f575a05312a176f86abece1fd7b') in 0.163291 seconds 
+Number of asset objects unloaded after import = 129
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Medieval Castle/Prefab/Assemble/TowerS.prefab
+  artifactKey: Guid(62bebc5ad00467c4c8dc046506d81a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Medieval Castle/Prefab/Assemble/TowerS.prefab using Guid(62bebc5ad00467c4c8dc046506d81a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a61e788123ceedbe5a6d0ec583b86c57') in 0.087172 seconds 
+Number of asset objects unloaded after import = 183
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Medieval Castle/Prefab/Assemble/Tower2A.prefab
+  artifactKey: Guid(ef2893773df02174087f4aeaedb7774c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Medieval Castle/Prefab/Assemble/Tower2A.prefab using Guid(ef2893773df02174087f4aeaedb7774c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e743db0eaa9e7a2d3e52cbca523ea0a1') in 0.101671 seconds 
+Number of asset objects unloaded after import = 183
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Medieval Castle/Prefab/Assemble/Tower2.prefab
+  artifactKey: Guid(6bc674b3353c8c4409e6296658998682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Medieval Castle/Prefab/Assemble/Tower2.prefab using Guid(6bc674b3353c8c4409e6296658998682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd89863fb97cbd198dfe9ca7d6b31dea') in 0.059797 seconds 
+Number of asset objects unloaded after import = 83
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Medieval Castle/Prefab/Assemble/Wall_Gate_Door.prefab
+  artifactKey: Guid(314d8309ecc37b841991fa5ae0997742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Medieval Castle/Prefab/Assemble/Wall_Gate_Door.prefab using Guid(314d8309ecc37b841991fa5ae0997742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca3e7b9b9d59246a4f6d11b140f60fe1') in 0.053106 seconds 
+Number of asset objects unloaded after import = 100
+========================================================================
+Received Import Request.
+  Time since last request: 127.928281 seconds.
+  path: Assets/Medieval Castle/Models/1.fbx
+  artifactKey: Guid(11917502b49fe0249ad8f896b2b4ae59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Medieval Castle/Models/1.fbx using Guid(11917502b49fe0249ad8f896b2b4ae59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9253a2732b17d83d13645d7004f865c0') in 0.063032 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/Medieval Castle/Models/Tower2A.fbx
+  artifactKey: Guid(8d68b9ee1c344254c850b9a34b2db3b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Medieval Castle/Models/Tower2A.fbx using Guid(8d68b9ee1c344254c850b9a34b2db3b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9299692e736b6aaccec63456faca0cab') in 0.380416 seconds 
+Number of asset objects unloaded after import = 45
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Medieval Castle/Models/Gate_Door.fbx
+  artifactKey: Guid(b09c2276048aa8448ade47150205d704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Medieval Castle/Models/Gate_Door.fbx using Guid(b09c2276048aa8448ade47150205d704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0972b3e2f103098538a09b40e8bd69f4') in 0.055878 seconds 
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Medieval Castle/Models/Tower_1.fbx
+  artifactKey: Guid(111e490940fb9de46bcc88f858044203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Medieval Castle/Models/Tower_1.fbx using Guid(111e490940fb9de46bcc88f858044203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e67744097e4ff40ffdcdd74c4aa85c0f') in 0.060566 seconds 
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Medieval Castle/Models/Stairs.fbx
+  artifactKey: Guid(e405f5905a9abb54ea99958cd49aafe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Medieval Castle/Models/Stairs.fbx using Guid(e405f5905a9abb54ea99958cd49aafe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b44b90dcd281a50576f59fb3dce910fe') in 0.041225 seconds 
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Medieval Castle/Models/Tower2_T.fbx
+  artifactKey: Guid(1f637a54e8da2db4b939941ad3875d58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Medieval Castle/Models/Tower2_T.fbx using Guid(1f637a54e8da2db4b939941ad3875d58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86d3ac3ee1a287d19c0763f6a692c38b') in 0.039963 seconds 
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Medieval Castle/Models/Door.fbx
+  artifactKey: Guid(f4ae7b6a37a276e4eb00d7448ab23a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Medieval Castle/Models/Door.fbx using Guid(f4ae7b6a37a276e4eb00d7448ab23a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '434978d2052839f1c9237c46acd90384') in 0.039297 seconds 
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Medieval Castle/Post_Process/SkyBox.mat
+  artifactKey: Guid(2b4d1bac06e98a5438006451cbbc8ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Medieval Castle/Post_Process/SkyBox.mat using Guid(2b4d1bac06e98a5438006451cbbc8ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28b3979fada14cb2b7a89cc086567858') in 0.122663 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Medieval Castle/Models/Tower3A_Int.fbx
+  artifactKey: Guid(35e784d2435e68144882c8277ef57ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Medieval Castle/Models/Tower3A_Int.fbx using Guid(35e784d2435e68144882c8277ef57ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cd66d113e96f65720f20d4f1b1c4251') in 0.058513 seconds 
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Medieval Castle/Models/Wall_Gate.fbx
+  artifactKey: Guid(b5c64d4ee9a2626499b011fd21b715b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Medieval Castle/Models/Wall_Gate.fbx using Guid(b5c64d4ee9a2626499b011fd21b715b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eefda93a40f6d7df86af30a32b53eae') in 0.054074 seconds 
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Medieval Castle/Models/Tower1_A.fbx
+  artifactKey: Guid(f594161307bff944cafed9e44e5a19e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Medieval Castle/Models/Tower1_A.fbx using Guid(f594161307bff944cafed9e44e5a19e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70f05110f88a5323d0c094b351661f70') in 0.061357 seconds 
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Medieval Castle/Models/Tower2_T2.fbx
+  artifactKey: Guid(163ee831e23437c46963227a5a1a94ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Medieval Castle/Models/Tower2_T2.fbx using Guid(163ee831e23437c46963227a5a1a94ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7939b25cf94b4a36bde7b309746b3e5d') in 0.042773 seconds 
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Medieval Castle/Models/Tower2_Roof.fbx
+  artifactKey: Guid(ade468ef87e3108409e13f190c6ceab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Medieval Castle/Models/Tower2_Roof.fbx using Guid(ade468ef87e3108409e13f190c6ceab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b98250eb7f0b57c5cf1f06f3270fd82') in 0.052967 seconds 
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Medieval Castle/Models/Tower3.fbx
+  artifactKey: Guid(2f5aad003ae0afb48aab5cd46605fa59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Medieval Castle/Models/Tower3.fbx using Guid(2f5aad003ae0afb48aab5cd46605fa59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66fd7e864712cfa191611d66d01075b3') in 0.084539 seconds 
+Number of asset objects unloaded after import = 50
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Medieval Castle/Models/Wall.fbx
+  artifactKey: Guid(7b269b0c043c6b64e91c2b5b805af6d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Medieval Castle/Models/Wall.fbx using Guid(7b269b0c043c6b64e91c2b5b805af6d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1bcef517adf739d20b6d280b4a71ee1') in 0.043760 seconds 
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Medieval Castle/Models/Step.fbx
+  artifactKey: Guid(05f6b529cae78644e84f00ef03728924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Medieval Castle/Models/Step.fbx using Guid(05f6b529cae78644e84f00ef03728924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '216edcfd2c9fb18ba6b1f61a8b93b0d4') in 0.026790 seconds 
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Medieval Castle/Models/TowerS_Roof.fbx
+  artifactKey: Guid(1df7afe5278f2cc41b30944e4350404b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Medieval Castle/Models/TowerS_Roof.fbx using Guid(1df7afe5278f2cc41b30944e4350404b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92ef2ee7edc0e2c1847b4bbef626da13') in 0.047554 seconds 
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Medieval Castle/Models/tower1_Int.fbx
+  artifactKey: Guid(0badb7f1c2b412943ac75a0235299326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Medieval Castle/Models/tower1_Int.fbx using Guid(0badb7f1c2b412943ac75a0235299326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '530114a99c6046e067a4993711096442') in 0.042286 seconds 
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Medieval Castle/Models/TowerS_Int.fbx
+  artifactKey: Guid(f48152e79cb43fa48bfabdb06b709b20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Medieval Castle/Models/TowerS_Int.fbx using Guid(f48152e79cb43fa48bfabdb06b709b20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'badba7ef4b5fd18c6ca63e5504d2a3d3') in 0.048650 seconds 
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Medieval Castle/Models/Tower2.fbx
+  artifactKey: Guid(f31fd927d7ff6b544a33774eb299c0fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Medieval Castle/Models/Tower2.fbx using Guid(f31fd927d7ff6b544a33774eb299c0fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c29f99ce151c66671ce2cc2f0e9aba35') in 0.067679 seconds 
+Number of asset objects unloaded after import = 45
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Medieval Castle/Post_Process/table_mountain_1_4k.hdr
+  artifactKey: Guid(d2edc05a11f346249896c34f757aae77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Medieval Castle/Post_Process/table_mountain_1_4k.hdr using Guid(d2edc05a11f346249896c34f757aae77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae4bf72fe09176ef49225cab8e90234b') in 0.754214 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Medieval Castle/Models/Tower2_Int.fbx
+  artifactKey: Guid(e02d13ebe1f68bd4b8a5ad6fd7c3cc1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Medieval Castle/Models/Tower2_Int.fbx using Guid(e02d13ebe1f68bd4b8a5ad6fd7c3cc1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bc3d2dfbd62b5781ff41a2cad46e074') in 0.053596 seconds 
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Medieval Castle/Models/Tower3A.fbx
+  artifactKey: Guid(06ba67ce19f110b40aa2d61eedf9475e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Medieval Castle/Models/Tower3A.fbx using Guid(06ba67ce19f110b40aa2d61eedf9475e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04095231aaedcad7aa8c8df01a75f606') in 0.085898 seconds 
+Number of asset objects unloaded after import = 50
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Medieval Castle/Models/TowerS.fbx
+  artifactKey: Guid(1c2afd8a01842314b95202eb6483114c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Medieval Castle/Models/TowerS.fbx using Guid(1c2afd8a01842314b95202eb6483114c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43be84f89a95c8d02177042e4c825099') in 0.074120 seconds 
+Number of asset objects unloaded after import = 45
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Medieval Castle/Models/Window.fbx
+  artifactKey: Guid(75dbf1ce1ab6fa245915e1c82ec3ca17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Medieval Castle/Models/Window.fbx using Guid(75dbf1ce1ab6fa245915e1c82ec3ca17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aadbbde1225b41825f28d463c52b1cf') in 0.043292 seconds 
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 8.192785 seconds.
+  path: Assets/Medieval Castle/Prefab/Stairs.prefab
+  artifactKey: Guid(4a067c3c26d37034bb66c14f4c537187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Medieval Castle/Prefab/Stairs.prefab using Guid(4a067c3c26d37034bb66c14f4c537187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b91785eab184c5aca0bf691a48560fd4') in 0.027544 seconds 
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Medieval Castle/Prefab/Tower2_T.prefab
+  artifactKey: Guid(774f5174dc3496b4d85b8404050834d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Medieval Castle/Prefab/Tower2_T.prefab using Guid(774f5174dc3496b4d85b8404050834d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e69a27de8605e3d0a7965faeb7ffbf9') in 0.027087 seconds 
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Medieval Castle/Prefab/Tower3A.prefab
+  artifactKey: Guid(06975022d7d227f418d02a531c2d8d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Medieval Castle/Prefab/Tower3A.prefab using Guid(06975022d7d227f418d02a531c2d8d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfc520fb977af8887bd79409515ffbf9') in 0.059934 seconds 
+Number of asset objects unloaded after import = 51
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Medieval Castle/Prefab/Tower1_A.prefab
+  artifactKey: Guid(f59513f993fffb5428e6fbf5ab249679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Medieval Castle/Prefab/Tower1_A.prefab using Guid(f59513f993fffb5428e6fbf5ab249679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a48f2304e8e55a113d05f58bc8cc9f2') in 0.046814 seconds 
+Number of asset objects unloaded after import = 41
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Medieval Castle/Prefab/Tower2_T2.prefab
+  artifactKey: Guid(dad4a38c42e646a45b2da5a4b983b3a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Medieval Castle/Prefab/Tower2_T2.prefab using Guid(dad4a38c42e646a45b2da5a4b983b3a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '344dcfc2a24d2ce8d30514aa141b03cb') in 0.024634 seconds 
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Medieval Castle/Prefab/Tower_1.prefab
+  artifactKey: Guid(3d264bce8652bb649ad59ee0c6a368cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Medieval Castle/Prefab/Tower_1.prefab using Guid(3d264bce8652bb649ad59ee0c6a368cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bde554d75cb648e7116e82c4ae101e54') in 0.041071 seconds 
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Medieval Castle/Prefab/Wall_Gate.prefab
+  artifactKey: Guid(fd1e86cc4fb91924190373db5f23282f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Medieval Castle/Prefab/Wall_Gate.prefab using Guid(fd1e86cc4fb91924190373db5f23282f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a53a3709420bf60026f8fd216bcc50e4') in 0.034381 seconds 
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Medieval Castle/Prefab/Tower2_Roof.prefab
+  artifactKey: Guid(a31bfdb1a5f138d468e30f4658ecc12b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Medieval Castle/Prefab/Tower2_Roof.prefab using Guid(a31bfdb1a5f138d468e30f4658ecc12b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c37e20ec796a597968c8c86bd6ddf048') in 0.034271 seconds 
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Medieval Castle/Prefab/Window.prefab
+  artifactKey: Guid(18396ca14e2b0f449ba60e40fc936b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Medieval Castle/Prefab/Window.prefab using Guid(18396ca14e2b0f449ba60e40fc936b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3df85d714b44fe5aca20623b36db30eb') in 0.022757 seconds 
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Medieval Castle/Prefab/Tower3A_Int.prefab
+  artifactKey: Guid(b2b5b43868a7e5449a283fcdebb04a3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Medieval Castle/Prefab/Tower3A_Int.prefab using Guid(b2b5b43868a7e5449a283fcdebb04a3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2429f1f923b032347c1689a1760d665') in 0.033601 seconds 
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Medieval Castle/Prefab/TowerS_Int.prefab
+  artifactKey: Guid(ab9faa60872593b4f94cffd1693e7e8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Medieval Castle/Prefab/TowerS_Int.prefab using Guid(ab9faa60872593b4f94cffd1693e7e8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a53b1b2a50ab68c492dc95b455ea2eb') in 0.034166 seconds 
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Medieval Castle/Prefab/TowerS_Roof.prefab
+  artifactKey: Guid(8add8652bb18518469a6b85d090a21e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Medieval Castle/Prefab/TowerS_Roof.prefab using Guid(8add8652bb18518469a6b85d090a21e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0262c63b1224e60ce2086e0a5acc129a') in 0.032439 seconds 
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Medieval Castle/Prefab/TowerS.prefab
+  artifactKey: Guid(57342dbf05c807e4691f403233d7ffa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Medieval Castle/Prefab/TowerS.prefab using Guid(57342dbf05c807e4691f403233d7ffa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1be89d500a5960b5caad8abf7bb91858') in 0.050398 seconds 
+Number of asset objects unloaded after import = 46
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Medieval Castle/Prefab/Tower2A.prefab
+  artifactKey: Guid(9f3e4d692b8a3f945a9a444d14ccd45c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Medieval Castle/Prefab/Tower2A.prefab using Guid(9f3e4d692b8a3f945a9a444d14ccd45c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2eb20622020b4a70d5ab269bb0aded9') in 0.052590 seconds 
+Number of asset objects unloaded after import = 46
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Medieval Castle/Prefab/Step.prefab
+  artifactKey: Guid(2d1e8be755f6ab44d92a35ea8536112a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Medieval Castle/Prefab/Step.prefab using Guid(2d1e8be755f6ab44d92a35ea8536112a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '663c56d458d29a638a0e98863371eb8f') in 0.017651 seconds 
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Medieval Castle/Prefab/Wall.prefab
+  artifactKey: Guid(112d075ab48b1b943b155b6543f0b096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Medieval Castle/Prefab/Wall.prefab using Guid(112d075ab48b1b943b155b6543f0b096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aadea3af2bc33df9b943c6f72d3ee48a') in 0.024248 seconds 
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Medieval Castle/Prefab/Tower2_Int.prefab
+  artifactKey: Guid(c0fbe600050d2e0468a8d5631cb56dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Medieval Castle/Prefab/Tower2_Int.prefab using Guid(c0fbe600050d2e0468a8d5631cb56dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75eeca50ae8b592b143ee04f3b9adbff') in 0.034060 seconds 
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Medieval Castle/Prefab/Tower2.prefab
+  artifactKey: Guid(23d9ad2de8bb603428b69b6574eb18f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Medieval Castle/Prefab/Tower2.prefab using Guid(23d9ad2de8bb603428b69b6574eb18f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7c44d67970cece72933b4309a9066dd') in 0.049211 seconds 
+Number of asset objects unloaded after import = 46
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Medieval Castle/Prefab/Tower3.prefab
+  artifactKey: Guid(0bf6a1b5eb731014a80e423b5f446448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Medieval Castle/Prefab/Tower3.prefab using Guid(0bf6a1b5eb731014a80e423b5f446448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bb5ec27dffc4141cfa9a9bbac514c74') in 0.052086 seconds 
+Number of asset objects unloaded after import = 51
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Medieval Castle/Prefab/tower1_Int.prefab
+  artifactKey: Guid(8cff82f33d6acc64f8519fcefdfcc626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Medieval Castle/Prefab/tower1_Int.prefab using Guid(8cff82f33d6acc64f8519fcefdfcc626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '408444e94f4ee8214915693c8c099de0') in 0.024852 seconds 
+Number of asset objects unloaded after import = 31
