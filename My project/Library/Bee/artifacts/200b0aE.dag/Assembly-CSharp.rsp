@@ -320,12 +320,16 @@
 -r:"/Applications/Unity/Hub/Editor/2021.3.35f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XPath.XDocument.dll"
 -r:"/Applications/Unity/Hub/Editor/2021.3.35f1/Unity.app/Contents/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll"
 -r:"/Applications/Unity/Hub/Editor/2021.3.35f1/Unity.app/Contents/NetStandard/ref/2.1.0/netstandard.dll"
--r:"/Users/michellekathryn/Documents/GitHub/Mickey-Maze/My project/Library/PackageCache/com.unity.testtools.codecoverage@1.2.5/lib/ReportGenerator/ReportGeneratorMerged.dll"
--r:"/Users/michellekathryn/Documents/GitHub/Mickey-Maze/My project/Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"/Users/baileymcnamara/Documents/GitHub/Mickey-Maze/My project/Library/PackageCache/com.unity.testtools.codecoverage@1.2.5/lib/ReportGenerator/ReportGeneratorMerged.dll"
+-r:"/Users/baileymcnamara/Documents/GitHub/Mickey-Maze/My project/Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 "Assets/IgniteCoders/Simple Water Shader/Info/Scripts/Readme.cs"
 "Assets/IgniteCoders/Simple Water Shader/Resources/WaterReflection.cs"
 "Assets/PBR_Grass_Textures/Scripts/CameraFreeflight.cs"
 "Assets/Rocks and Boulders 2/Shaders/RotateGameObject.cs"
+"Assets/Security Systems/Free Version/Scripts/FreebieCameraHookupScript.cs"
+"Assets/Security Systems/Free Version/Scripts/ObjectRotator.cs"
+"Assets/Security Systems/Free Version/Scripts/TabletDisplayController.cs"
+"Assets/Security Systems/Free Version/Scripts/TabletInput.cs"
 -langversion:9.0
 
 /deterministic
